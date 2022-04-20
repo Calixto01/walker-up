@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
       <img src="/resources/images/fondos/Logo v11.png" width="45px" alt="">
@@ -57,6 +57,7 @@
     </div>
   </div>
 </nav>
+<br><br><br>
     </header>
     
 </body>
