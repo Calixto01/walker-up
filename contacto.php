@@ -36,8 +36,9 @@ require ("resources/views/layouts/main.php")
         <div class="mb-4">
             <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
         </div>
-        <div class="card-footer">
-            <button type="submit" class="btn btn-primary float-end">
+        <!---card-footer= clase que podemos usar--->
+        <div class="footer">
+            <button type="submit" class="btn btn-primary float-end my-1">
                 Enviar
                 <i class="bi bi-send-fill"></i>
             </button>
