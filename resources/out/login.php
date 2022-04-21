@@ -28,7 +28,7 @@
                     </div>
                     <h2 class="fw-bolder text-center py-4">Bienvenido A Walker UP</h2>
                     <!--------LOGIN-------->
-                    <form action="/" class="login-form" method="POST">
+                    <form action="/servidor/validarLogin.php" class="login-form" method="POST">
                         <div class="mb-4">
                             <label for="email" class="form-label">Email</label>
                             <input type="email" class="form-control" name="email" placeholder="Correo Electronico" required>

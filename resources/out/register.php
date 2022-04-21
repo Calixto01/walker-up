@@ -30,7 +30,7 @@
                   
                     <h2 class="fw-bolder text-center py-4">Bienvenido a Walker Up</h2>
                     <!--------Registro-------->
-                    <form action="/">
+                    <form action="/servidor/newRegister.php" method="POST">
                         <div class="mb-3">
                             <label for="text" class="form-label">Nombre</label>
                             <input type="name" class="form-control" name="nombre" placeholder="Nombre" require>

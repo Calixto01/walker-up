@@ -49,7 +49,7 @@
           <i class="bi bi-person-circle"></i>
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Cerrar Sesion</a></li>
+            <li><a class="dropdown-item" href="/servidor/cerrarSesion.php">Cerrar Sesion</a></li>
           
           </ul>
         </li>
