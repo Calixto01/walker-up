@@ -1,7 +1,8 @@
 <?php
+    require ("resources/views/layouts/main.php");
 
-require ("resources/views/layouts/main.php");
-
+    session_start();
+    if(isset($_SESSION['usuario'])){
 ?>
 
 <div class="container my-4">
@@ -32,3 +33,8 @@ require ("resources/views/layouts/main.php");
         </div>
     </div>
 </div>
+
+<?php
+    }else{
+        header('Location: resources/out/login.php');
+    }?>
