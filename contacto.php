@@ -1,6 +1,7 @@
 <?php
-
-require ("resources/views/layouts/main.php")
+    require ("resources/views/layouts/main.php");
+    session_start();
+    if(isset($_SESSION['usuario'])){
 ?>
 
 <div class="container card shadow my-2">
@@ -46,3 +47,9 @@ require ("resources/views/layouts/main.php")
         </div>
     </form>
 </div>  
+
+<?php
+    }else{
+        header("Location: /resources/out/login.php");
+    }
+?>
