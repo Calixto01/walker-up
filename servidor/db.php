@@ -1,5 +1,4 @@
 <?php
-    $conexion = null;
     $servidor = 'localhost'; //Nombre del servidor
     $database = 'walker-up'; //Nombre de la base de datos.
     $user = 'root'; //Usuario de la base de datos.

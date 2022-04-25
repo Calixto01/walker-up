@@ -51,7 +51,7 @@
                         </div>
                         <div class="my-3">
                             <span>
-                                no tienes cuenta? <a href="/resources/out/register.php">Registrate</a>
+                                No tienes cuenta? <a href="/resources/out/register.php">Registrate</a>
                             </span>
                         </div>
                     </form>

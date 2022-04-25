@@ -42,7 +42,7 @@
 
                         <div class="mb-3">
                             <label for="text" class="form-label">ID Andadera</label>
-                            <input type="phone" class="form-control" name="telefono" placeholder="ID" require>
+                            <input type="text" class="form-control" name="id_andadera" placeholder="ID" require>
                         </div>
 
                         <div class="mb-3">
@@ -67,7 +67,7 @@
                         </div>
                         <div class="my-3">
                             <span>
-                                ya tienes cuenta? <a href="/resources/out/login.php">Inicia Sesion</a>
+                                Ya tienes cuenta? <a href="/resources/out/login.php">Inicia Sesion</a>
                             </span>
                         </div>
                     </form>
