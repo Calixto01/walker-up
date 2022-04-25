@@ -1,8 +1,8 @@
 <?php
 
-    require("resources/views/layouts/main.php")
+    require("resources/views/layouts/main.php");
     session_start();
-    if(isset(isset($_SESSION['usuario']))){
+    if(isset($_SESSION['usuario'])){
 ?>
 
 <div class="container card my-2">

@@ -11,7 +11,7 @@
         <h4>Comunicate con nuestro equipo</h4>
         <br>
         <a class="text-decoration-none" href="mailto:ccalixtoengelbergergamerpro@gmail.com.mx?subject=Contacto&body=Quiero saber mas!!">
-        <i class="bi bi-envelope"></i> 
+        <i class="bi bi-envelope"></i>  
         Enviar Email
         </a>
         <br><br>
