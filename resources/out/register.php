@@ -41,6 +41,11 @@
                         </div>
 
                         <div class="mb-3">
+                            <label for="text" class="form-label">ID Andadera</label>
+                            <input type="phone" class="form-control" name="telefono" placeholder="ID" require>
+                        </div>
+
+                        <div class="mb-3">
                             <label for="email" class="form-label">Email</label>
                             <input type="email" class="form-control" name="email" placeholder="Correo Electronico" required>
                         </div>
