@@ -42,3 +42,4 @@
     }else{
         header("Location: /resources/out/login.php");
     }
+    ?>
