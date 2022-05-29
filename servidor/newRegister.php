@@ -8,6 +8,8 @@
     $email = $_POST['email'];
     $pswd = $_POST['password'];
 
+    $password = password_hash($pswd, PASSWORD_DEFAULT);
+
     $conexion -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     //Dentro de la variable query pongo la variable conexion con un atributo prepare() y dentro de este coloco la secuencia SQL.
@@ -17,7 +19,7 @@
     $query -> bindParam(":t", $phone);
     $query -> bindParam(":i", $idAndadera);
     $query -> bindParam(":e", $email);
-    $query -> bindParam(":p", $pswd);
+    $query -> bindParam(":p", $password);
     $query -> execute();
 
     header('Location: /resources/out/login.php');
