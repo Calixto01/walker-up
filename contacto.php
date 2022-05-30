@@ -5,53 +5,36 @@
 ?>
 
 <div class="container card shadow my-2">
-    <div class="text-start mb-4">
-        <h1>Contacto</h1>
-        <br>
-        <h4>Comunicate con nuestro equipo</h4>
-        <br>
-        <a class="text-decoration-none" href="mailto:ccalixtoengelbergergamerpro@gmail.com.mx?subject=Contacto&body=Quiero saber mas!!">
-        <i class="bi bi-envelope"></i>  
-        Enviar Email
-        </a>
-        <br><br>
-        <text>
-        <i class="bi bi-telephone-forward"></i> 314-338-7923
-        </text>
-    </div>
+    <br>
+    <br>
     <form action="https://formsubmit.co/2299dc55c3c4eebc512cbf50afc2b2c4" method="post">
         <div class="mb-3">
-              <label class="form-label">Full Name</label>
+              <label class="form-label">Nombre Completo</label>
               <input name="name" type="text" class="form-control" required />
             </div>
 
             <div class="mb-3">
-              <label class="form-label">Email address</label>
+              <label class="form-label">Correo Electronico</label>
               <input name="email" type="email" class="form-control" required />
               <div id="emailHelp" class="form-text">
-                Don't worry, we won't share it with anyone else.
+                Esto no se compartirá con nadie, no hay de que preocuparse.
               </div>
             </div>
 
             <div class="mb-3">
-              <label class="form-label">Phone (optional)</label>
+              <label class="form-label">Telefono (Opcional)</label>
               <input name="phone" \type="tel" class="form-control" />
               <div id="phoneHelp" class="form-text">
-                If you rather talk to a human directly.
+                En caso de que quieras hablar directamente.
               </div>
             </div>
 
             <div class="mb-3">
-              <label class="form-label">Your Message</label>
-              <textarea
-                name="message"
-                class="form-control"
-                rows="3"
-                required
-              ></textarea>
+              <label class="form-label">Tu mensaje.</label>
+              <textarea name="message" class="form-control" rows="3" required></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary"><i class="bi bi-send"></i> Enviar</button>
     </form>
 </div>  
 
