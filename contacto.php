@@ -19,32 +19,39 @@
         <i class="bi bi-telephone-forward"></i> 314-338-7923
         </text>
     </div>
-    <form action="#">
-        <div class="row mb-2">
-            <div class="col">
-                <label for="name" class="form-label" >Nombre</label>
-                <input type="text" class="form-control" name="Nombre" placeholder="Nombre">                
+    <form action="https://formsubmit.co/2299dc55c3c4eebc512cbf50afc2b2c4" method="post">
+        <div class="mb-3">
+              <label class="form-label">Full Name</label>
+              <input name="name" type="text" class="form-control" required />
             </div>
-            <div class="col">
-                <label for="name" class="form-label" >Email</label>
-                <input type="text" class="form-control" name="Email" placeholder="Email">
-            </div>
-        </div>
-        <div class="mb-4">
-            <label for="name" class="form-label" >Asunto</label>
-            <input type="text" class="form-control" name="Asunto" placeholder="Asunto">
-        </div>
-        <div class="mb-4">
-            <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
-        </div>
-        <!---card-footer= clase que podemos usar--->
-        <div class="footer">
-            <button type="submit" class="btn btn-primary float-end my-1">
-                Enviar
-                <i class="bi bi-send-fill"></i>
-            </button>
 
-        </div>
+            <div class="mb-3">
+              <label class="form-label">Email address</label>
+              <input name="email" type="email" class="form-control" required />
+              <div id="emailHelp" class="form-text">
+                Don't worry, we won't share it with anyone else.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Phone (optional)</label>
+              <input name="phone" \type="tel" class="form-control" />
+              <div id="phoneHelp" class="form-text">
+                If you rather talk to a human directly.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Your Message</label>
+              <textarea
+                name="message"
+                class="form-control"
+                rows="3"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </div>  
 
