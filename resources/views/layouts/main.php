@@ -17,7 +17,7 @@
     <header>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/">
       <img src="/resources/images/fondos/Logo v11.png" width="45px" alt="">
       Walker UP
     </a>
