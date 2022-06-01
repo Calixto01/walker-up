@@ -4,10 +4,8 @@
     if(isset($_SESSION['usuario'])){
 ?>
 
-<div class="container card shadow my-2">
-    <br>
-    <br>
-    <form action="https://formsubmit.co/2299dc55c3c4eebc512cbf50afc2b2c4" method="post">
+<div class="container card col-4">
+    <form action="https://formsubmit.co/2299dc55c3c4eebc512cbf50afc2b2c4" method="post" class="mt-3">
         <div class="mb-3">
               <label class="form-label">Nombre Completo</label>
               <input name="name" type="text" class="form-control" required />
@@ -34,7 +32,7 @@
               <textarea name="message" class="form-control" rows="3" required></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary"><i class="bi bi-send"></i> Enviar</button>
+            <button type="submit" class="btn btn-primary mb-3"><i class="bi bi-send"></i> Enviar</button>
     </form>
 </div>  
 
