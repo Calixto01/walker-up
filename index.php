@@ -22,22 +22,48 @@
     <?php 
         if($datos > 0){
             ?>
-    <div class="row mb-4">
-        <div class="col-5 p-2" style="background-color: #F7DCC7"><p><b>Nombre:</b> <?php echo $datos['firstName'];?></p></div>
-        <div class="col-5 p-2" style="background-color: #FBC5A7"><p><b>Apellido:</b> <?php echo $datos['lastName'];?></p></div>
-        <div class="col-2 p-2" style="background-color: #F7DCC7"><p><b>Edad:</b> <?php echo $datos['age'];?> años.</p></div>
-    </div>
-    <div class="row mb-4">
-        <div class="col-5 p-2" style="background-color: #FBC5A7"><p><b>Fecha de Nacimiento:</b> <?php echo $datos['dateOfBirth'];?></p></div>
-        <div class="col-4 p-2" style="background-color: #F7DCC7"><p><b>Lugar de Nacimiento:</b> <?php echo $datos['placeOfBirth'];?></p></div>
-        <div class="col-3 p-2" style="background-color: #FBC5A7"><p><b>C.U.R.P:</b> <?php echo $datos['CURP'];?></p></div>
-    </div>
-    <div class="row mb-4">
-        <div class="col-3 p-2" style="background-color: #F7DCC7"><p><b>NSS:</b><?php echo $datos['NSS'];?></p></div>
-        <div class="col-3 p-2" style="background-color: #FBC5A7"><p><b>RFC:</b> <?php echo $datos['RFC'];?></p></div>
-        <div class="col-6 p-2" style="background-color: #F7DCC7"><p><b>Padecimientos:</b> <?php echo $datos['healtProblem'];?></p></div>
-    </div>
-    
+        
+            <thead class="text-center">
+
+            </thead>
+            <tbody class="text-center">
+                <tr>
+                    <td class="col-5"><h5><i class="bi bi-qr-code"></i> Número de Seguro Social.</h5></td>
+                    <td class="col-5"><?php echo $datos['NSS'];?></td>
+                </tr>
+                <tr>
+                    <td><h5><i class="bi bi-person-fill"></i> Nombre.</h5></td>
+                    <td><?php echo $datos['firstName'];?></td>
+                </tr>
+                <tr>
+                    <td><h5><i class="bi bi-envelope-fill"></i>Apellido.</h5></td>
+                    <td><?php echo $datos['lastName'];?></td>
+                </tr>
+                <tr>
+                    <td><h5><i class="bi bi-key-fill"></i>Edad</h5></td>
+                    <td><p type="password"><?php echo $datos['age'];?></p></td>
+                </tr>
+                <tr>
+                    <td><h5><i class="bi bi-phone-fill"></i>Fecha de Nacimiento.</h5></td>
+                    <td><?php echo $datos['dateOfBirth'];?></td>
+                </tr>
+                <tr>
+                    <td class="col-5"><h5><i class="bi bi-qr-code"></i> Lugar de Nacimiento.</h5></td>
+                    <td class="col-5"><?php echo $datos['placeOfBirth'];?></td>
+                </tr>
+                <tr>
+                    <td><h5><i class="bi bi-person-fill"></i> CURP.</h5></td>
+                    <td><?php echo $datos['CURP'];?></td>
+                </tr>
+                <tr>
+                    <td><h5><i class="bi bi-envelope-fill"></i>RFC.</h5></td>
+                    <td><?php echo $datos['RFC'];?></td>
+                </tr>
+                <tr>
+                    <td><h5><i class="bi bi-key-fill"></i>Padecimientos</h5></td>
+                    <td><p type="password"><?php echo $datos['healtProblem'];?></p></td>
+                </tr>
+            </tbody>
     <?php 
         }else{?>
 
