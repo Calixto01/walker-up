@@ -19,7 +19,7 @@
     if($usuario['email'] && password_verify($pswd, $password_BD)){
         session_start();
         $_SESSION['usuario'] = $usuario['id_users'];
-        header('Location: /index.php');
+        header('Location: /principal.php');
     }else{  
         echo '<!DOCTYPE html>
         <html lang="en">
